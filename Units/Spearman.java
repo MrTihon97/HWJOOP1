@@ -1,6 +1,10 @@
 package Units;
+
 public class Spearman extends Warrior {
-    public Spearman() { 
-        super("Andy", 100, 70, 1);
-}
+    public Spearman(String string) {
+        super("Warrior", 100, 70, 1);
+
+    }
+
+
 }

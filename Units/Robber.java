@@ -1,7 +1,9 @@
 package Units;
 public class Robber extends Warrior {
-    public Robber() {
-        super("Andy", 100, 80, 2);
+    public Robber(String string) {
+        super("Warrior", 100, 80, 2);
         
     }
+    
+
 }

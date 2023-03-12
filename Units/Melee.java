@@ -1,9 +1,18 @@
 package Units;
-public class Melee extends Unit {
+public abstract class Melee extends Unit {
     protected String fightingStyle;
-    public Melee(String name, int hp, int damage, String fightingStyle) {
-        super(name, hp, damage);
+    public Melee(String TYPE, int hp, int damage, String fightingStyle) {
+        super(TYPE, hp, damage);
 
-    }   
+    }
+    @Override
+    public String getInfo() {
+        return NAME;
+    }
+    @Override
+    public void step() {
+        System.out.println("Шаг.");
+    }
+
 
 }

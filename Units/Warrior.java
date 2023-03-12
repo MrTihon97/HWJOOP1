@@ -1,9 +1,8 @@
 package Units;
-public class Warrior extends Unit {
+public abstract class Warrior extends Unit {
     protected int weapons;
-    public Warrior(String name, int hp, int damage, int weapons) {
-        super(name, hp, damage);
+    public Warrior(String TYPE, int hp, int damage, int weapons) {
+        super(TYPE, hp, damage);
 
-    }   
-
+    }
 }

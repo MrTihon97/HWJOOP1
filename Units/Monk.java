@@ -1,7 +1,8 @@
 package Units;
 public class Monk extends Melee {
-    public Monk() {
-        super("Andy", 100, 65, "Wing Chun");
+    public Monk(Object object) {
+        super("Melee", 100, 65, "Wing Chun");
         
     }
+
 }
